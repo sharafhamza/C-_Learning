@@ -1,6 +1,11 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+  using std::cout;
+  using std::string;
+  using name = std::string;
+
+  name myname = "Alice";
+
+  cout << "Hello, " << myname << "!\n";
 }
